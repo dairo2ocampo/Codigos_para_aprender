@@ -38,6 +38,7 @@ if($reg != '')
 	}
 }
 
+//	Eliminar
 if($eli != '')
 {
 	$regd = mysqli_query($conex,"delete from $tabswc where id = '$i'");
